@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page h1{font-size: 2.5rem; font-weight: bold; color: #FFF; margin-top: 2rem;}
+.page h1 a{text-decoration: none;}
+.page h1:hover{text-decoration: underline;}
+.page h2{font-size: 1.75rem; color: #FFF; margin-top: 1.5rem;}
+.page h3{font-size: 1.5rem; color: #FFF; margin-top: 1rem;}
+.page a{color: #0070f3; text-decoration: underline;}
+.page p{font-size: 1.3rem; margin: 0 0;} 
+.post-detail h1{font-size: 2.5rem; font-weight: bold; color: #FFF; margin-top: 2rem;}
+.post-detail p{font-size: 1.3rem; margin: 1.5rem 0; line-height: 1.3em;}
+p{font-size: 1.3rem; margin: 1rem 0; line-height: 1.3em;}
+.page{max-width: 1000px; margin: 0 auto;}
+.home .oblig .material-icons {
+    font-size: 48px; /* Adjust the size */
+    color: #0070f3; /* Adjust the color */
+}
+.home .material-icons {font-size: 48px;}
+.blog article {margin-bottom: 2rem;}
+.blog small {
+    color: #666;
+    margin-bottom: 0;
+}
+.blog a:hover {text-decoration: underline;}
+.excerpt > p:first-child{font-size: 1.25rem; padding-top: 0}
+.excerpt p{font-size: 1rem;}
