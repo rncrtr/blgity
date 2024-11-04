@@ -14,10 +14,11 @@
 p{font-size: 1.3rem; margin: 1rem 0; line-height: 1.3em;}
 .page{max-width: 1000px; margin: 0 auto;}
 .home .oblig .material-icons {
-    font-size: 48px; /* Adjust the size */
-    color: #0070f3; /* Adjust the color */
+    font-size: 48px;
+    color: #0070f3;
+    
 }
-.home .material-icons {font-size: 48px;}
+.home .material-icons {font-size: 42px; padding: 3px;}
 .blog article {margin-bottom: 2rem;}
 .blog small {
     color: #666;

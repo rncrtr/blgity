@@ -51,15 +51,15 @@ function openLink(link) {
     <h3>Free Tools & Code Examples</h3>
     <div class="mt-4 grid grid-cols-3 gap-4">
         <button class="btn btn-neutral" on:click={openLink('/blog')}>
-            <span class="material-icons text-4xl text-white">code</span>
+            <span class="material-icons text-3xl text-white">code</span>
             &nbsp;Code Examples (Blog)
         </button>
         <button class="btn btn-neutral" on:click={openLink('/resources')}>
-            <span class="material-icons text-4xl text-white">build</span>
+            <span class="material-icons text-3xl text-white">build</span>
             &nbsp;Tools & Utils (Resources)
         </button>
         <button class="btn btn-neutral" on:click={openLink('https://discord.gg/n6Dw6eKr')}>
-            <span class="material-icons text-4xl text-white">emoji_emotions</span>
+            <span class="material-icons text-3xl text-white">emoji_emotions</span>
             &nbsp;Moral Support (Discord)
         </button>
     </div>
