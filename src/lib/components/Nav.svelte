@@ -1,13 +1,14 @@
 <div class="navbar bg-base-100">
     <div class="navbar-start">
-        <a href="/" title="Dev While Dead"><img alt="dev while dead logo" class="w-40" src="../img/dev-while-dead-cat-banner.png" /></a>
-        <!-- <a href="/" class="btn btn-ghost text-3xl">Dev While Dead</a> -->
+        <!--<a href="/" title="Site Title">
+             <img alt="logo" class="w-40" src="../img/logo.png" /> 
+        </a>-->
+        <a href="/" class="btn btn-ghost text-3xl">Site Title</a>
     </div>
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 text-xl">
             <li><a class="no-underline px-6 nav-link" href="/">Home</a><li>
             <li><a class="no-underline px-6 nav-link" href="/blog">Blog</a><li>
-            <li><a class="no-underline px-6 nav-link" href="/resources">Resources</a><li>
             <li><a class="no-underline px-6 nav-link" href="/about">About</a><li>
             <li><a class="no-underline px-6 nav-link" href="/contact">Contact</a><li>
         </ul>
@@ -32,7 +33,6 @@
             <ul class="menu menu-sm dropdown-content bg-base-100 z-[1] mt-3 w-52 p-2 shadow">
                 <li><a class="no-underline px-6 dd-link" href="/">Home</a><li>
                 <li><a class="no-underline px-6 dd-link" href="/blog">Blog</a><li>
-                <li><a class="no-underline px-6 dd-link" href="/resources">Resources</a><li>
                 <li><a class="no-underline px-6 dd-link" href="/about">About</a><li>
                 <li><a class="no-underline px-6 dd-link" href="/contact">Contact</a><li>
             </ul>
