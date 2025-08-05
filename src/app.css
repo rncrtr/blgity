@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+    --primary-color: #a02dff;
+    --secondary-color: #a6adbb;
+    --text-color: #ffffff;
+    --background-color: #000000;
+    }
 
 .page h1{font-size: 2.5rem; font-weight: bold; color: #FFF; margin-top: 2rem;}
 .page h1 a{text-decoration: none;}
@@ -8,26 +14,57 @@
 .page h2:not('menu'){font-size: 1.75rem; color: #FFF; margin-top: 1.5rem;}
 h2.menu{font-size: 1.75rem; color: #FFF;}
 .page h3{font-size: 1.5rem; color: #FFF; margin-top: 1rem;}
-.page a{color: #0070f3; text-decoration: underline;}
-.page a.dd-link{color: #FFFFFF; font-size: 2em; padding: 0.5em; text-decoration: none;}
-.page a.nav-link{color: #FFFFFF; font-size: 1.2em; font-weight: bold;  padding: 0.5em; text-decoration: none;}
+.page a{color: var(--primary-color); text-decoration: underline;}
+.page a.dd-link{color: var(--text-color); font-size: 2em; padding: 0.5em; text-decoration: none;}
+.page a.nav-link{color: var(--text-color); font-size: 1.2em; font-weight: bold;  padding: 0.5em; text-decoration: none;}
 .page p{font-size: 1.3rem; margin: 0 0;} 
+.post-date{font-size: 1.1rem; color: var(--secondary-color); margin-bottom: 0.5rem;}
 .post-detail h1{font-size: 2.5rem; font-weight: bold; color: #FFF; margin-top: 2rem;}
 .post-detail p{font-size: 1.3rem; margin: 1.5rem 0; line-height: 1.3em;}
-.post_title:hover{text-decoration: none;}
+.post-title{font-size: 2.5rem; font-weight: bold; color: #FFF; margin-top: 2rem; margin-bottom: 1rem;}
+.post-title:hover{text-decoration: none;}
 p{font-size: 1.3rem; margin: 1rem 0; line-height: 1.3em;}
 .page{max-width: 1000px; margin: 0 auto;}
 .home .oblig .material-icons {
     font-size: 48px;
-    color: #0070f3;
-    
+    color: var(--primary-color);
 }
 .home .material-icons {font-size: 42px; padding: 3px;}
 .blog article {margin-bottom: 2rem;}
 .blog small {
-    color: #666;
+    color: var(--secondary-color);
     margin-bottom: 0;
 }
 .blog a:hover {text-decoration: underline;}
-.excerpt > p:first-child{font-size: 1.25rem; padding-top: 0}
-.excerpt p{font-size: 1rem;}
+.excerpt > p:first-child{font-size: 1.25rem;}
+.excerpt p{font-size: 1rem; padding-top: 15px;}
+.read-more {
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo-image{
+    margin-left: -20px;
+}
+.categories {
+  margin-bottom: 1em;
+}
+.categories a {
+  margin-right: 0.5em;
+  text-decoration: none;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  background: var(--primary-color);
+  color: var(--text-color);
+}
+.post-categories .tag {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 3px;
+  padding: 0.1em 0.5em;
+  margin-right: 0.3em;
+  font-size: 0.9em;
+}

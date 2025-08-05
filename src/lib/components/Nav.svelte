@@ -1,9 +1,9 @@
 <div class="navbar bg-base-100">
     <div class="navbar-start">
-        <!--<a href="/" title="Site Title">
-             <img alt="logo" class="w-40" src="../img/logo.png" /> 
-        </a>-->
-        <a href="/" class="btn btn-ghost text-3xl">Site Title</a>
+        <a class="logo-image" href="/" title="Site Title">
+             <img alt="logo" class="w-80" src="../img/ifw-logo-sm.png" /> 
+        </a>
+        <!-- <a href="/" class="btn btn-ghost text-3xl">It's Far Worse</a> -->
     </div>
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 text-xl">

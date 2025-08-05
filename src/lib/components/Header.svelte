@@ -5,5 +5,5 @@
 </script>
 <Nav {posts} />
 <div class="mx-auto w-full text-center">
-  <div class="w-full text-2xl font-bold">"quote goes here" <small>&ndash; someone</small></div>
+  <!-- <div class="w-full text-2xl font-bold">"It's far worse. Much worse than you think." <small>&ndash; some cat</small></div> -->
 </div>
